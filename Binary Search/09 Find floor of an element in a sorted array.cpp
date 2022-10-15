@@ -10,7 +10,7 @@ class Solution{
       int mid= start+(end-start)/2;
       if (x==v[mid])
         return mid;
-      else if(x>v[mid])
+      else if(x<v[mid])
         end= mid-1; // continue biniry search on left size of the array
       else 
       {
